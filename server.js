@@ -47,6 +47,13 @@ app.get('/about', (req, res) => {
     })
 });
 
+app.get('/portfolio', (req, res) => {
+    res.render('portifolio.hbs', {
+        title: 'Portifólio',
+        content: 'Nossos Trabalhos',
+    })
+});
+
 app.listen(port, () => {
     console.log(`Server rodando em http://localhost:${port}`)
 });
