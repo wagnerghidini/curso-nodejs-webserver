@@ -48,7 +48,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/portfolio', (req, res) => {
-    res.render('portifolio.hbs', {
+    res.render('portfolio.hbs', {
         title: 'Portifólio',
         content: 'Nossos Trabalhos',
     })
